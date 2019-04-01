@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+</head>
+
+<body>
+    <h1>Color Picker</h1>
+
+    <!--box to show the color-->
+    <!--div stands for division and is used to make boxes-->
+    <div id="box"></div>
+
+    <!--box to hold the color picking controls-->
+    <div id="controlPanel">
+        <p>Red:</p>
+        <input type="range" min="0" max="255" value="0" id="redSlider" />
+
+        <p>Green:</p>
+        <input type="range" min="0" max="255" value="0" id="greenSlider" />
+
+        <p>Blue:</p>
+        <input type="range" min="0" max="255" value="0" id="blueSlider" />
+
+        <p>Random and invert:</p>
+        <button id="randomColorButton">Random color</button>
+        <button id="invertColorButton">Invert color</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
